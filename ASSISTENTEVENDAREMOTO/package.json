@@ -1,0 +1,36 @@
+{
+  "name": "assistentevendaonline",
+  "version": "0.0.1",
+  "description": "Assistente de vendas online é um robo automatizado que fica responsavel de atender clientes interassados em adquirir conta ssh. Ele gera o pix com validade de 24 horas e depois aguarda pelo pagamento, ao confirma-lo envia o a conta de acesso ssh automaticamente.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Renato A. dos Santos",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "child_process": "^1.0.2",
+    "ci": "^2.2.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.2",
+    "install": "^0.13.0",
+    "moment": "^2.29.4",
+    "mongodb": "^4.10.0",
+    "ms": "^2.1.3",
+    "pino": "^8.6.1",
+    "pino-pretty": "github:pinojs/pino-pretty",
+    "pm2": "^5.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "ssh2": "^1.11.0",
+    "ssh2-sftp-client": "^9.0.4",
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#fix-buttons-list"
+  },
+  "devDependencies": {
+    "jest": "^29.2.2",
+    "nodemon": "^2.0.20"
+  }
+}

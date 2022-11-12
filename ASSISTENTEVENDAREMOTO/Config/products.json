@@ -1,0 +1,16 @@
+{
+  "premium": [
+    {
+      "id": "SSH01",
+      "titulo": "DETALHES DA COMPRA",
+      "descricao": "PRODUTO:* ACESSO VPN",
+      "preco": "00.01",
+      "validade": "31",
+      "limite": "1"
+    }
+  ],
+  "test": {
+    "tempo": 60,
+    "limite": 1
+  }
+}

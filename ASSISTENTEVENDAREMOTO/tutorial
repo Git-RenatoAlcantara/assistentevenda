@@ -1,0 +1,18 @@
+# Instalar dependências do sistema
+    1 - make install
+
+#  fazer a leitura do qrcode
+    2 - make qrcode
+
+# Iniciar o assistente
+    3 - make start
+
+# Parar o  assistente
+    4 - make stop
+
+# Remover a conta refazer a leitura do qrcode para adicionar um novo dispositivo
+    5 - make logout
+
+# Mostrar error do assistent
+    6 - make log
+

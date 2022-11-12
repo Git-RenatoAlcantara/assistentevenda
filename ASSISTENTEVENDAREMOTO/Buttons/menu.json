@@ -1,0 +1,10 @@
+{
+  "text": "*Veja as opções*",
+  "buttons": [
+    { "body": "COMPRAR ACESSO SSH", "id": "comprar" },
+    { "body": "CRIAR TESTE GRÁTIS", "id": "teste" },
+    { "body": "TIRAR DÚVIDAS", "id": "duvida" }
+  ],
+  "title": "",
+  "footer": ""
+}
